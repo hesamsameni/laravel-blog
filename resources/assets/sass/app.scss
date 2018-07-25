@@ -4,16 +4,7 @@
 @import 'variables';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-.navbar-laravel {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
-
-.center-H1 {
-    display: block;
-    text-align: center;
-    font-size: 50px;
-    color: gray;
-    font-weight: 100;
-    margin: 50px auto;
-}
+//Blog Styles
+@import 'blog_styles';
+//Footer
+@import 'footer';
